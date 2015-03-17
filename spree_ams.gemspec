@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.0'
+  s.add_dependency 'spree_core', '~> 2.4.x'
   s.add_dependency 'spree_api'
-  s.add_dependency 'active_model_serializers', '~> 0.8.2'
+  s.add_dependency 'active_model_serializers', '~> 0.8.3'
   s.add_dependency 'apitome'
 
   s.add_development_dependency 'capybara', '~> 2.1'
